@@ -21,3 +21,201 @@ ping -n 3 iperf.biznetnetworks.com
 ping -n 3 speedtest-iperf-akl.vetta.online
 ping -n 3 iperf.scottlinux.com
 ping -n 3 iperf.he.net
+
+
+
+
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.par2.as49434.net
+PING iperf.par2.as49434.net (193.177.162.41) 56(84) bytes of data.
+64 bytes from 193.177.162.41 (193.177.162.41): icmp_seq=1 ttl=50 time=259 ms
+64 bytes from 193.177.162.41 (193.177.162.41): icmp_seq=2 ttl=50 time=257 ms
+64 bytes from 193.177.162.41 (193.177.162.41): icmp_seq=3 ttl=50 time=259 ms
+
+--- iperf.par2.as49434.net ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 675ms
+rtt min/avg/max/mdev = 257.358/258.577/259.447/1.064 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 paris.testdebit.info
+PING paris.testdebit.info (89.84.1.194) 56(84) bytes of data.
+64 bytes from 89.84.1.194 (89.84.1.194): icmp_seq=1 ttl=47 time=369 ms
+64 bytes from 89.84.1.194 (89.84.1.194): icmp_seq=2 ttl=47 time=340 ms
+64 bytes from 89.84.1.194 (89.84.1.194): icmp_seq=3 ttl=47 time=366 ms
+
+--- paris.testdebit.info ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 632ms
+rtt min/avg/max/mdev = 340.336/358.592/369.254/12.978 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 lille.testdebit.info
+PING lille.testdebit.info (89.84.1.234) 56(84) bytes of data.
+64 bytes from 89.84.1.234 (89.84.1.234): icmp_seq=1 ttl=46 time=377 ms
+64 bytes from 89.84.1.234 (89.84.1.234): icmp_seq=2 ttl=46 time=376 ms
+64 bytes from 89.84.1.234 (89.84.1.234): icmp_seq=3 ttl=46 time=326 ms
+
+--- lille.testdebit.info ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 855ms
+rtt min/avg/max/mdev = 326.179/359.833/376.853/23.808 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 lyon.testdebit.info
+PING lyon.testdebit.info (89.84.1.242) 56(84) bytes of data.
+64 bytes from 89.84.1.242 (89.84.1.242): icmp_seq=1 ttl=46 time=270 ms
+64 bytes from 89.84.1.242 (89.84.1.242): icmp_seq=2 ttl=46 time=269 ms
+64 bytes from 89.84.1.242 (89.84.1.242): icmp_seq=3 ttl=46 time=269 ms
+
+--- lyon.testdebit.info ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 784ms
+rtt min/avg/max/mdev = 268.585/269.162/269.840/0.668 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 aix-marseille.testdebit.info
+PING aix-marseille.testdebit.info (89.84.1.250) 56(84) bytes of data.
+64 bytes from 89.84.1.250 (89.84.1.250): icmp_seq=1 ttl=46 time=271 ms
+64 bytes from 89.84.1.250 (89.84.1.250): icmp_seq=2 ttl=46 time=269 ms
+64 bytes from 89.84.1.250 (89.84.1.250): icmp_seq=3 ttl=46 time=271 ms
+
+--- aix-marseille.testdebit.info ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 12ms
+rtt min/avg/max/mdev = 268.757/270.409/271.384/1.249 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 bordeaux.testdebit.info
+PING bordeaux.testdebit.info (89.84.1.178) 56(84) bytes of data.
+64 bytes from 89.84.1.178 (89.84.1.178): icmp_seq=1 ttl=46 time=339 ms
+64 bytes from 89.84.1.178 (89.84.1.178): icmp_seq=2 ttl=46 time=375 ms
+
+--- bordeaux.testdebit.info ping statistics ---
+3 packets transmitted, 2 received, 33.3333% packet loss, time 555ms
+rtt min/avg/max/mdev = 338.690/356.771/374.853/18.091 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 speed.as208196.net
+PING speed.as208196.fr (45.154.168.155) 56(84) bytes of data.
+
+--- speed.as208196.fr ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 53ms
+
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 ping.online.net
+PING ping.online.net (62.210.18.40) 56(84) bytes of data.
+64 bytes from ping.online.net (62.210.18.40): icmp_seq=1 ttl=46 time=317 ms
+64 bytes from ping.online.net (62.210.18.40): icmp_seq=2 ttl=46 time=286 ms
+64 bytes from ping.online.net (62.210.18.40): icmp_seq=3 ttl=46 time=255 ms
+
+--- ping.online.net ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 137ms
+rtt min/avg/max/mdev = 255.456/286.187/316.845/25.065 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 ping6.online.net
+ping: ping6.online.net: 未知的名称或服务
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 ping-90ms.online.net
+PING ping-90ms.online.net (62.210.18.41) 56(84) bytes of data.
+64 bytes from ping90ms.online.net (62.210.18.41): icmp_seq=1 ttl=46 time=359 ms
+64 bytes from ping90ms.online.net (62.210.18.41): icmp_seq=2 ttl=46 time=357 ms
+64 bytes from ping90ms.online.net (62.210.18.41): icmp_seq=3 ttl=46 time=358 ms
+
+--- ping-90ms.online.net ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 824ms
+rtt min/avg/max/mdev = 356.933/357.908/358.595/0.860 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 ping6-90ms.online.net
+ping: ping6-90ms.online.net: 未知的名称或服务
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 speedtest.serverius.net
+PING speedtest.serverius.net (178.21.16.76) 56(84) bytes of data.
+64 bytes from speedtest.serverius.net (178.21.16.76): icmp_seq=1 ttl=51 time=392 ms
+64 bytes from speedtest.serverius.net (178.21.16.76): icmp_seq=2 ttl=51 time=343 ms
+
+--- speedtest.serverius.net ping statistics ---
+3 packets transmitted, 2 received, 33.3333% packet loss, time 235ms
+rtt min/avg/max/mdev = 343.198/367.499/391.800/24.301 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 nl.iperf.014.fr
+PING nl.iperf.014.fr (185.213.174.18) 56(84) bytes of data.
+64 bytes from 185.213.174.18 (185.213.174.18): icmp_seq=1 ttl=49 time=390 ms
+64 bytes from 185.213.174.18 (185.213.174.18): icmp_seq=2 ttl=49 time=382 ms
+64 bytes from 185.213.174.18 (185.213.174.18): icmp_seq=3 ttl=49 time=390 ms
+
+--- nl.iperf.014.fr ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 708ms
+rtt min/avg/max/mdev = 381.506/386.957/389.852/3.856 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 ch.iperf.014.fr
+PING ch.iperf.014.fr (45.91.92.191) 56(84) bytes of data.
+
+--- ch.iperf.014.fr ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 55ms
+
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.eenet.ee
+PING iperf.eenet.ee (193.40.55.7) 56(84) bytes of data.
+64 bytes from iperf.eenet.ee (193.40.55.7): icmp_seq=1 ttl=46 time=318 ms
+64 bytes from iperf.eenet.ee (193.40.55.7): icmp_seq=2 ttl=46 time=313 ms
+64 bytes from iperf.eenet.ee (193.40.55.7): icmp_seq=3 ttl=46 time=313 ms
+
+--- iperf.eenet.ee ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 600ms
+rtt min/avg/max/mdev = 312.660/314.578/317.792/2.376 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.astra.in.ua
+PING iperf.astra.in.ua (193.93.216.52) 56(84) bytes of data.
+64 bytes from speedtest.astra.in.ua (193.93.216.52): icmp_seq=1 ttl=51 time=319 ms
+64 bytes from speedtest.astra.in.ua (193.93.216.52): icmp_seq=2 ttl=51 time=317 ms
+64 bytes from speedtest.astra.in.ua (193.93.216.52): icmp_seq=3 ttl=51 time=316 ms
+
+--- iperf.astra.in.ua ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 221ms
+rtt min/avg/max/mdev = 316.335/317.402/318.902/1.270 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.volia.net
+PING speedtest.volia.com (77.120.3.236) 56(84) bytes of data.
+64 bytes from speedtest.volia.com (77.120.3.236): icmp_seq=1 ttl=48 time=280 ms
+64 bytes from speedtest.volia.com (77.120.3.236): icmp_seq=2 ttl=48 time=281 ms
+64 bytes from speedtest.volia.com (77.120.3.236): icmp_seq=3 ttl=48 time=280 ms
+
+--- speedtest.volia.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 184ms
+rtt min/avg/max/mdev = 279.644/280.311/281.421/0.900 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 speedtest.uztelecom.uz
+PING speedtest.uztelecom.uz (195.69.189.215) 56(84) bytes of data.
+64 bytes from 195.69.189.215 (195.69.189.215): icmp_seq=1 ttl=46 time=233 ms
+64 bytes from 195.69.189.215 (195.69.189.215): icmp_seq=2 ttl=46 time=231 ms
+64 bytes from 195.69.189.215 (195.69.189.215): icmp_seq=3 ttl=46 time=230 ms
+
+--- speedtest.uztelecom.uz ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 202ms
+rtt min/avg/max/mdev = 229.841/231.369/232.813/1.335 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.it-corth.net
+ping: iperf.it-corth.net: 未知的名称或服务
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.biznetnetworks.com
+PING iperf.biznetnetworks.com (117.102.109.186) 56(84) bytes of data.
+64 bytes from 117.102.109.186 (117.102.109.186): icmp_seq=1 ttl=44 time=95.8 ms
+64 bytes from 117.102.109.186 (117.102.109.186): icmp_seq=2 ttl=44 time=97.8 ms
+64 bytes from 117.102.109.186 (117.102.109.186): icmp_seq=3 ttl=44 time=95.5 ms
+
+--- iperf.biznetnetworks.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 3ms
+rtt min/avg/max/mdev = 95.469/96.362/97.800/1.026 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 speedtest-iperf-akl.vetta.online
+PING speedtest-iperf-akl.vetta.online (163.47.131.253) 56(84) bytes of data.
+From 163.47.131.17 (163.47.131.17) icmp_seq=1 Destination Host Unreachable
+From 163.47.131.17 (163.47.131.17) icmp_seq=2 Destination Host Unreachable
+From 163.47.131.17 (163.47.131.17) icmp_seq=3 Destination Host Unreachable
+
+--- speedtest-iperf-akl.vetta.online ping statistics ---
+3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 24ms
+pipe 3
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.scottlinux.com
+ping: iperf.scottlinux.com: 未知的名称或服务
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ ping -c 3 iperf.he.net
+PING 1500.mtu.he.net (216.218.207.42) 56(84) bytes of data.
+64 bytes from 216.218.207.42 (216.218.207.42): icmp_seq=1 ttl=48 time=225 ms
+64 bytes from 216.218.207.42 (216.218.207.42): icmp_seq=2 ttl=48 time=221 ms
+64 bytes from 216.218.207.42 (216.218.207.42): icmp_seq=3 ttl=48 time=219 ms
+
+--- 1500.mtu.he.net ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 223ms
+rtt min/avg/max/mdev = 219.318/221.943/225.038/2.358 ms
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ 
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ 
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ trace
+traceproto        traceproto.db     traceroute        traceroute6       traceroute6.db    traceroute.db     traceroute-nanog  
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ traceroute iperf.he.net
+traceroute to iperf.he.net (216.218.207.42), 30 hops max, 60 byte packets
+ 1  10.134.176.2 (10.134.176.2)  3.478 ms  3.864 ms  3.850 ms
+ 2  112.31.184.1 (112.31.184.1)  8.314 ms  8.301 ms  8.288 ms
+ 3  112.31.136.41 (112.31.136.41)  7.264 ms 112.31.136.37 (112.31.136.37)  8.263 ms 112.31.136.41 (112.31.136.41)  9.129 ms
+ 4  120.210.247.13 (120.210.247.13)  9.117 ms 120.210.247.141 (120.210.247.141)  9.105 ms 120.210.247.13 (120.210.247.13)  9.094 ms
+ 5  221.183.94.125 (221.183.94.125)  22.270 ms 221.183.94.121 (221.183.94.121)  9.529 ms  9.516 ms
+ 6  111.24.4.33 (111.24.4.33)  20.277 ms 111.24.3.57 (111.24.3.57)  20.000 ms 111.24.4.33 (111.24.4.33)  15.838 ms
+ 7  221.183.89.5 (221.183.89.5)  23.587 ms  23.568 ms *
+ 8  221.183.89.70 (221.183.89.70)  23.536 ms 221.183.89.34 (221.183.89.34)  24.641 ms 221.183.89.70 (221.183.89.70)  23.506 ms
+ 9  221.183.89.173 (221.183.89.173)  23.853 ms 221.183.89.169 (221.183.89.169)  24.975 ms 221.183.89.173 (221.183.89.173)  26.589 ms
+10  223.120.22.109 (223.120.22.109)  53.600 ms * *
+11  * 223.120.6.70 (223.120.6.70)  218.819 ms 223.120.10.13 (223.120.10.13)  253.503 ms
+12  * port-channel1.core4.sjc2.he.net (184.105.223.126)  229.335 ms *
+13  port-channel7.core3.sjc1.he.net (184.104.196.33)  220.323 ms * *
+14  100ge3-2.core1.lax2.he.net (184.104.197.61)  198.282 ms  204.589 ms  203.927 ms
+15  port-channel2.core2.fmt1.he.net (184.104.198.214)  222.212 ms * port-channel1.core2.nyc4.he.net (184.104.199.222)  317.690 ms
+16  * 216.218.207.42 (216.218.207.42)  227.906 ms *
+4ead@4ead-PC:~/Documents/Code/iperf-master/iperf-master$ 
